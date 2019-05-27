@@ -1,1 +1,3 @@
 sed -i "s/akl-base-[0-9]*/akl-base:v${BUILD_NUMBER}/g" /var/lib/jenkins/gcp/job_service/Dockerfile
+
+THIS WILL REPLACE ONE TAG WITH OTHER USING SAME COMMON IMAGE

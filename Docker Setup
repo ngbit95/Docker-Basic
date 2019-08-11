@@ -1,0 +1,14 @@
+Docker is the basic requirement if you want any containerization for application :-
+BAsic Setup process for docker CE is as following :-
+
+NOTE:- The below setup if for ubuntu machine only, for any different machine setup please go through given link
+https://docs.docker.com/install/
+
+(i). sudo apt-get update
+(ii). sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+(iii). curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+(iv). sudo apt-key fingerprint 0EBFCD88
+(v). sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+(vi). sudp apt-get update
+(v). sudo service docker status
+(vi). sudo docker info
